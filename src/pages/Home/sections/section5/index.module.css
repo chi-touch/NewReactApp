@@ -1,0 +1,38 @@
+.imageStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+
+
+}
+
+.textStyle{
+    position: relative;
+    font-family: Inter;
+    background: #C6C6C6;
+    margin-top: -95px;
+    height: 30%;
+    width: 80%;
+}
+
+.styleImg{
+    gap: 10px;
+}
+
+.sect5Style{
+    padding:5%;
+    margin-left:10%;
+}
+
+@media screen and (max-width: 728px) {
+    .imageStyle{
+        flex-direction: column;
+        margin-left: 25%;
+    }
+
+    /*.sect5Style{*/
+    /*   margin-right: 5%;*/
+    /*    margin-left: 40%;*/
+    /*}*/
+
+}

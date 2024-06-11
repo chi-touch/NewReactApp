@@ -1,0 +1,132 @@
+.subCont {
+    display: flex;
+    padding: 70px 314px 4px 314px;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+}
+.error{
+    color: #f00;
+    font-size: 0.8rem;
+    padding: 5px 3px;
+    position: absolute;
+}
+.innerCont {
+    display: flex;
+    padding: 60px 56px 60px 57px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #FF2E2E;
+    background: #fff2c7;
+    flex-direction: column;
+    gap: 30px;
+}
+.topic {
+    color: #FF2E2E;
+    font-family: IBM Plex Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.7px;
+//width: 432px;
+    margin: 0;
+}
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.text {
+    color: var(--Plain-Text, #38516d);
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%; /* 24.08px */
+//width: 543px;
+    margin: 0;
+}
+.contentCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.inputSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    input {
+        display: flex;
+    //width: 170px;
+        padding: 15px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 10px;
+        border: 0px solid var(--labs-black-5, #d5d2d2);
+        background: var(--labs-white-1, #fff);
+
+        &::placeholder{
+            color: #C6C6C6;
+        }
+    }
+    .btn {
+        display: flex;
+        padding: 8.5px 31px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: #FF2E2E;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        span{
+            transition: transform 0.4s;
+            &:hover {
+                transform: translateX(3px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .subCont {
+        display: flex;
+        padding: 79px 25px 77px 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .innerCont {
+        padding: 38px 27px;
+    }
+    .topic {
+        font-size: 25px;
+        width: 294px;
+    }
+    .text {
+        width: 291px;
+    }
+    .inputSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .inputSection > div > input{
+        width: 100%;
+        padding: 15px 11px;
+    }
+    .error{
+        position: relative;
+    }
+
+}

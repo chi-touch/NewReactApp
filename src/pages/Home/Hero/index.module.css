@@ -1,0 +1,17 @@
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.heroSection> div > h1{
+    color: #4d4d4d;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+
+@media screen and (max-width: 728px){
+    .heroSection{
+    flex-direction: column;
+    }
+}

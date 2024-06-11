@@ -1,0 +1,27 @@
+.sect4Style{
+    display:flex;
+    justify-content:space-between;
+    padding:10%;
+    gap:70px;
+    background:whitesmoke;
+}
+
+.logStyle{
+    display:flex;
+    gap:1px;
+    align-items:center;
+}
+
+@media screen and (max-width: 728px) {
+    .sect4Style{
+        flex-direction: column;
+        padding: 2%;
+
+    }
+
+    .logStyle{
+        gap: 1px;
+
+    }
+
+}

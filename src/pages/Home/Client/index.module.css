@@ -1,0 +1,62 @@
+.clientLogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+
+
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member2{
+    display: flex;
+    padding: 80px;
+}
+.member2 > p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.clientNames{
+
+}
+.clientText{
+
+}
+
+@media screen and  (max-width: 728px){
+    .clientLogos{
+        gap:3px;
+    }
+    .member2{
+        width: 20%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .clientNames{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+
+    .clientText{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 10px;
+
+
+    }
+
+}

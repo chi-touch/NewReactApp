@@ -1,0 +1,15 @@
+.sectStyle{
+    display:flex;
+    justify-content:space-around;
+    padding:10%;
+    background:whitesmoke;
+}
+
+@media screen and (max-width: 728px){
+    .sectStyle{
+        flex-direction: column;
+        padding: 0.5%;
+
+    }
+
+}

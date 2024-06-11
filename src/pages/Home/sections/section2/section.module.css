@@ -1,0 +1,113 @@
+.homeContainer{
+    display: flex;
+    /*background-color: #FF2E2E;*/
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10%;
+}
+.members{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+    margin-top: -6px;
+}
+.hold{
+    padding: 6px;
+}
+
+
+.clubNumber{
+    font-size: 20px;
+
+}
+
+.clubs{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+    margin-top: -6px;
+}
+
+.event{
+    display:flex;
+    align-items:center;
+    margin-top: 2px;
+}
+
+
+
+.payment{
+    display:flex;
+    align-items:center;
+    margin-top: -5px;
+}
+
+.eventS{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+    margin-top: -6px;
+}
+
+.eventN{
+    font-size: 20px;
+}
+
+.pay{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+    margin-top: -6px;
+}
+
+.payN{
+    font-size: 20px;
+}
+
+.imgStyle{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.imgStyle2{
+    display: flex;
+    gap:40px;
+}
+
+.textStyle{
+
+}
+
+@media  screen and (max-width: 728px){
+    .homeContainer{
+        display: flex;
+        justify-content: normal;
+    }
+
+    .imgStyle{
+        justify-content:space-evenly;
+    }
+
+    .imgStyle2{
+        gap: 5px;
+    }
+
+    .textStyle{
+        font-family: Arial;
+        font-size: 0.5rem;
+    }
+
+}

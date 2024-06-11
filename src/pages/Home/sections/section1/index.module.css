@@ -1,0 +1,12 @@
+.styling1{
+    display:flex;
+    justify-content:space-between;
+    padding: 10%;
+}
+
+@media  screen and (max-width: 728px){
+    .styling1{
+        flex-direction: column;
+    }
+
+}
